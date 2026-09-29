@@ -11,9 +11,9 @@ A welcome gate comes up first.
 - **New arrival** opens a funded test address that exists only in that browser tab. Close the tab and the address is gone. Leftover tKAS is swept back and is not yours to recover.
 - **Returning** uses Kasware, Kastle, a pasted `kaspatest:` address, or a `.kas` name that already resolves. That choice stays on the browser and keeps its history.
 
-The square is click-to-walk. The shops are Nia's Cafe, Orin's Table, Mara's Groceries, Venn's bank, and Pike's Roadster. The car stays on the square. A lap is a turn, not a title.
+The square is click-to-walk. The town on the page is Ashfields. The shops are Nia's Cafe, Orin's Table, Mara's Groceries, Venn's bank, and Pike's Roadster. The car stays on the square. A lap is a turn, not a title. The drawing is original.
 
-The top bar shows who is paying, the tKAS balance, the POCencept balance, and the KUSDT balance. The left side opens the shops, the spending rules, and a bench of related work. The right side is where you change who pays. This page never asks for a seed. A mainnet wallet is refused.
+The top bar shows who is paying, the tKAS balance, the POCencept balance, and the KUSDT balance. The left side opens the shops, the spending rules, and a bench of related work. On the square, the bottom right is where you change who pays. Open the bank and that same corner becomes one booth. This page never asks for a seed. A mainnet wallet is refused.
 
 A `.kas` name that points at you ties the public spend to you. A plain `kaspatest:` address, or a name that does not identify you, is the preference here. Creating a name is KNS. This page only resolves one.
 
@@ -27,7 +27,7 @@ Shop prices are toy cents. A tKAS payment is a real Testnet-10 transaction to th
 
 The sompi amount follows the live KAS/USD quote. The miner fee is extra tKAS. POCencept and KUSDT do not move on the chain. They are tags in the village ledger. The tag does not change when the KAS price moves.
 
-The bank locks tKAS into POCencept or KUSDT at that live quote. Redeem sends tKAS back only for the locked part. The practice purse can be spent at a shop. It cannot be redeemed. A failed redeem puts the toy balance back.
+Venn's bank is a room with three booths. The open booth is the only chest on screen. tKAS locks into POCencept or KUSDT at the live quote. POCencept redeems the locked part and can hand out the practice purse. KUSDT is the booth with the freeze. The practice purse can be spent at a shop. It cannot be redeemed. A failed redeem puts the toy balance back. The long note about the peg sits in the rules, not in the chest.
 
 A new arrival is minted on the server. The browser receives the address and a token. It does not receive the key. The key never goes in git. Closing the tab asks the server to sweep the coins home after a short grace, so a refresh does not burn the wallet.
 
